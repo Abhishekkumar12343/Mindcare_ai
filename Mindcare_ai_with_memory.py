@@ -10,7 +10,7 @@ import tempfile
 # ==============================
 # Configure API Key
 # ==============================
-os.environ["GROQ_API_KEY"] = "your_api_key_here"
+os.environ["GROQ_API_KEY"] = "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"
 
 # ==============================
 # Initialize Groq LLM with Memory
@@ -85,3 +85,4 @@ if st.button("🎙 Speak"):
         st.error("❌ Could not understand audio.")
     except sr.RequestError:
         st.error("❌ Speech recognition service error.")
+
