@@ -1,0 +1,4 @@
+streamlit
+SpeechRecognition
+openai
+pyaudio   # only if using mic input, otherwise skip this
