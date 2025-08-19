@@ -1,4 +1,5 @@
 streamlit
 SpeechRecognition
 openai
-pyttsx3
+gTTS
+
