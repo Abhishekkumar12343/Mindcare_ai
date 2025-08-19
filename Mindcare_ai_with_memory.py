@@ -93,7 +93,7 @@ if st.button("🎙 Speak"):
     except sr.RequestError:
         st.error("❌ Speech recognition service error.")
 
-=======
+
 import os
 import streamlit as st
 import speech_recognition as sr
@@ -187,4 +187,5 @@ if st.button("🎙 Speak"):
         st.error("❌ Could not understand audio.")
     except sr.RequestError:
         st.error("❌ Speech recognition service error.")
+
 
