@@ -193,4 +193,5 @@ if st.button("🎙 Speak"):
     except sr.RequestError:
         st.error("❌ Speech recognition service error.")
 
-add gtts and remove pyttsx3
+
+
